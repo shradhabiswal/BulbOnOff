@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb ON/OFF</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre&family=Peralta&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Click the button to turn it ON/OFF</h2>
+        <br>
+        <img id="image" src="bulbOff.png" alt="BulbOff">
+        <!-- <img src="bulbOn.png" alt="BulbOn"> -->
+        <br>
+        <br>
+        <button onclick="document.getElementById('image').src = 'bulbOn.png'" id="bulbBtn" class="btn">Turn ON</button> <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <button onclick="document.getElementById('image').src = 'bulbOff.png'" id="bulbBtn" class="btn">Turn OFF</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
